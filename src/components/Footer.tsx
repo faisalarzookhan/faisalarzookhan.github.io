@@ -50,8 +50,8 @@ const Footer: React.FC = () => {
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold text-slate-600 uppercase tracking-widest">
           <p>© {new Date().getFullYear()} Faishal Arzoo Khan. Built for Performance.</p>
           <div className="flex gap-8">
-            <a href={`https://${profile.contact.linkedin}`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
-            <a href={`https://${profile.contact.website}`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Website</a>
+            <a href={`https://www.linkedin.com/in/faisalarzookhan/`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href={`https://www.limitlessinfotech.com/`} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Website</a>
           </div>
         </div>
       </div>
